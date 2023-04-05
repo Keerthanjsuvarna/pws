@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fffcf2;
+}
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+  }
+  
+.navi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #b6c06b;
+  }
+    
+#logo {
+        height: 40px;
+        width: 60px;
+        position: relative;
+        margin: 0;
+    }
+li 
+h2{
+    margin: 4px;
+}
+.logoc{
+    display: flex;
+    justify-content: space-between;
+    width: 6em;
+    padding: 0.5rem 0.5rem;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.7288165266106443) 59%);        }
+.connect{
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    margin-top: 2px;
+}
+#home{
+    margin: 0;
+    height: 680px;
+    width: auto;
+    background-color: #e4d8b2;
+    
+}
+#about{
+    margin: 0;
+    height: 680px;
+    width: auto;
+    background-color: #dcb434;
+    
+}
+#blogs{
+    
+    
+    background-color: #dcc26d;
+    
+}
+.projects{
+    
+    background-color: #967e2ff7;
+    height: 1400px;
+    
+}
+#home h1{
+    margin: 0;
+    text-align: left;
+    padding: 05%;
+    color: rgb(2, 21, 24);
+}
+#block{
+    display: flex;
+    justify-content: space-between;
+}
+#connect{
+    display: flex;
+    justify-content: space-between;
+}
+#connect h2{
+    width: 60px;
+    height: auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: #b6c06b;
+}
+#img2{
+    height: 300px; ;
+    width: 500px;
+}
+footer{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.7288165266106443) 59%);
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 1450px) {
+.features-section:before {
+content: '';
+position: absolute;
+width: 10%;
+height: 20em;
+
+left: 0;
+top: -4em;
+}
+}
