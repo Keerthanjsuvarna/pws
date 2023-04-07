@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #6c757d;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+header #logo {
+  height: 50px;
+}
+header .logoc {
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header nav ul li a {
+  color: #0d0202;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main h2 {
+  color: #007bff;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+main form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+main form input[type=text],
+main form input[type=email],
+main form input[type=tel],
+main form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #6c757d;
+  border-radius: 5px;
+  font-size: 1em;
+}
+main form input[type=text]:focus,
+main form input[type=email]:focus,
+main form input[type=tel]:focus,
+main form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+main form input[type=submit] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+main form input[type=submit]:hover {
+  background-color: #0062cc;
+}
+main form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #6c757d;
+  border-radius: 5px;
+  font-size: 1em;
+}
+main form select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  margin: 0;
+}/*# sourceMappingURL=rent.css.map */
