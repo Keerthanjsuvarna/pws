@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Car</title>
+    <link rel="stylesheet" href="./sass/rent.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <div class="logoc">
+                <img id="logo" src="./—Pngtree—banyan tree logo design vector_8535961.png" alt="Open Navigation" style="position: initial;">
+                <h2 class="title" href="#">ASSIGNMENT<span style="color: #242424c1;">TWO</span></h2> </div>   
+            <ul>
+                <li><a href="./index.html">Back</a></li>
+                <li><a href="./index.html">Bookings</a></li>
+                <li><a href="./index.html/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Book Now</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            
+            <label for="pickup">Pickup Date:</label>
+            <input type="date" id="pickup" name="pickup" required><br>
+            
+            <label for="return">Return Date:</label>
+            <input type="date" id="return" name="return" required><br>
+            
+            <label for="car-type">Car Type:</label>
+            <select id="car-type" name="car-type" required>
+                <option value="">Select Car Type</option>
+                <option value="economy">Economy</option>
+                <option value="mid-size">Mid-Size</option>
+                <option value="luxury">Luxury</option>
+            </select><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    
+    <footer class="rentfoot">
+        <p>&copy; 2023 Rent a Car. All rights reserved.</p>
+    </footer>
+</body>
+</html>

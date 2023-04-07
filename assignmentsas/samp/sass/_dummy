@@ -1,0 +1,119 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+body {
+  font-family: Arial, sans-serif;
+  color: $secondary-color;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 20px;
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      
+      li {
+        display: inline-block;
+        margin-right: 10px;
+        
+        a {
+          color: #fff;
+          text-decoration: none;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  h2 {
+    color: $primary-color;
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  form {
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 2px solid $secondary-color;
+      border-radius: 5px;
+      font-size: 1em;
+      
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+      }
+    }
+    
+    input[type="submit"] {
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+    
+    select {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 2px solid $secondary-color;
+      border-radius: 5px;
+      font-size: 1em;
+      
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  
+  p {
+    margin: 0;
+  }
+}
