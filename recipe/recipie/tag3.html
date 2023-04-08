@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mushroom</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./norm.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+              <img src="./Slice 1 (1).svg" alt="simply recipes" />
+            </a>
+            <button class="nav-btn btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link"> home </a>
+            <a href="about.html" class="nav-link"> about </a>
+            <a href="tags.html" class="nav-link"> tags </a>
+            <a href="recipes.html" class="nav-link"> recipes </a>
+  
+            <div class="nav-link contact-link">
+              <a href="contact.html" class="btn"> contact </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./mush.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>mushroom tika</h2>
+            <p>
+                Mushroom tikka masala is a vegetarian version of the popular Indian dish chicken tikka masala. It’s made by marinating mushrooms in a mixture of yogurt and spices, then grilling or baking them until they’re tender and slightly charred. The mushrooms are then simmered in a creamy tomato-based sauce that’s flavored with more spices like garam masala, cumin, and coriander.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>35 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>55 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags :  <a href="tag.html">Chicken (2)</a>
+              <a href="tag.html">Breakfast (2)</a>
+              <a href="tag.html">Carrots (3)</a>
+              <a href="tag.html">Food (5)</a>
+              <a href="tag.html">juice (1)</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                 Marinate sliced mushrooms in a mixture of yogurt, ginger-garlic paste, red chili powder, turmeric powder, garam masala powder, and salt for at least 30 minutes.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                  Grill or bake the marinated mushrooms until they’re tender and slightly charred.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                    Add the grilled mushrooms to a creamy tomato-based sauce that’s flavored with more spices like garam masala, cumin, and coriander and simmer for 5-10 minutes
+
+                </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 1/2 cups of mushroom </p>
+              <p class="single-ingredient">1/2 cup every masala</p>
+              <p class="single-ingredient">1 big vessel with lid and ghee</p>
+              <p class="single-ingredient"> 1 cup vegetables </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">spoon</p>
+              <p class="single-tool">Large Pot With Lid</p>
+              <p class="single-tool">bowls</p>
+              <p class="single-tool">plates</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+        <p>
+          &copy; <span id="date"></span>
+          <span class="footer-logo">Assignrecipes</span> Built by
+          <a href="https://www.google.com/"> cook</a>
+        </p>
+      </footer>
+      <script src="./action.js"></script>
+    </body>
+  </html>
