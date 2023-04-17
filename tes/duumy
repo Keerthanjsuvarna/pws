@@ -1,0 +1,110 @@
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>    
+
+     <div id="explore">
+        <div class="container bootstrap snippets bootdey">
+            <h1 class="text-center text-primary title">Learn about our projects</h1>
+            <hr class="divider-title">
+            
+            <div class="col-ms-10 col-md-4">
+                <div class="project">
+                    <figure class="img-responsive">
+                        <img src="https://www.bootdey.com/image/400x300/FFB6C1/000000">
+                        <figcaption>
+                            <span class="project-details">Full project name</span>
+                            <span class="project-price"><strong>$100</strong></span>
+                            <span class="project-creator">creator name</span>
+                        </figcaption>
+                        <span class="actions">
+                                <button class="btn btn-warning bnt-action" type="submit" >View </button>
+                        </span>
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="col-ms-10 col-md-4">
+                <div class="project">
+                    <figure class="img-responsive">
+                        <img src="https://www.bootdey.com/image/400x300/87CEFA/000000">
+                        <figcaption>
+                            <span class="project-details">Full project name</span>
+                            <span class="project-price"><strong>$100</strong></span>
+                            <span class="project-creator">creator name</span>
+                        </figcaption>
+                        <span class="actions">
+                                <button class="btn btn-warning bnt-action" type="submit" >View </button>
+                        </span>
+                    </figure>
+                </div>
+            </div>
+            
+            
+            <div class="col-ms-10 col-md-4" style="position: sticky;">
+                <div class="project">
+                    <figure class="img-responsive">
+                        <img src="https://www.bootdey.com/image/400x300/FF7F50/000000">
+                        <figcaption>
+                            <span class="project-details">Full project name</span>
+                            <span class="project-price"><strong>$100</strong></span>
+                            <span class="project-creator">creator name</span>
+                        </figcaption>
+                        <span class="actions">
+                                <button class="btn btn-warning bnt-action" type="submit" >View </button>
+                        </span>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-ms-10 col-md-4">
+                <div class="project">
+                    <figure class="img-responsive">
+                        <img src="https://www.bootdey.com/image/400x300/FF7F50/000000">
+                        <figcaption>
+                            <span class="project-details">Full project name</span>
+                            <span class="project-price"><strong>$100</strong></span>
+                            <span class="project-creator">creator name</span>
+                        </figcaption>
+                        <span class="actions">
+                                <button class="btn btn-warning bnt-action" type="submit" >View </button>
+                        </span>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-ms-10 col-md-4">
+                <div class="project">
+                    <figure class="img-responsive">
+                        <img src="https://www.bootdey.com/image/400x300/FF7F50/000000">
+                        <figcaption>
+                            <span class="project-details">Full project name</span>
+                            <span class="project-price"><strong>$100</strong></span>
+                            <span class="project-creator">creator name</span>
+                        </figcaption>
+                        <span class="actions">
+                                <button class="btn btn-warning bnt-action" type="submit" >View </button>
+                        </span>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-ms-10 col-md-4">
+                <div class="project">
+                    <figure class="img-responsive">
+                        <img src="https://www.bootdey.com/image/400x300/FF7F50/000000">
+                        <figcaption>
+                            <span class="project-details">Full project name</span>
+                            <span class="project-price"><strong>$100</strong></span>
+                            <span class="project-creator">creator name</span>
+                        </figcaption>
+                        <span class="actions">
+                                <button class="btn btn-warning bnt-action" type="submit" >View </button>
+                        </span>
+                    </figure>
+                </div>
+            </div>
+        </div>  
+
+
+
+
+
+    </div>
